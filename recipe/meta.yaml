@@ -1,5 +1,5 @@
 {% set name = "ptyrad" %}
-{% set version = "0.1.0b5" %}
+{% set version = "0.1.0b6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ptyrad-{{ version }}.tar.gz
-  sha256: 586624771d5aa77316b8a690f5e46f34104fa474754440e642820d527f4efaa2
+  sha256: fa9b2ca8d1e2f61c1f9a4f4a3ce7b731931b8ab0df6aa1c8e4400561413a2ad4
 
 build:
   entry_points:
