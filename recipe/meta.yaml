@@ -49,7 +49,7 @@ about:
   home: https://github.com/chiahao3/ptyrad
   summary: 'PtyRAD: Ptychographic Reconstruction with Automatic Differentiation'
   dev_url: "https://github.com/chiahao3/ptyrad"
-  license: LGPL-3.0-only
+  license: LGPL-3.0-or-later
   license_file: LICENSE
 
 extra:
