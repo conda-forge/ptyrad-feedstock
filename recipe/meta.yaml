@@ -1,5 +1,5 @@
 {% set name = "ptyrad" %}
-{% set version = "0.1.0b6" %}
+{% set version = "0.1.0b7" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ptyrad-{{ version }}.tar.gz
-  sha256: fa9b2ca8d1e2f61c1f9a4f4a3ce7b731931b8ab0df6aa1c8e4400561413a2ad4
+  sha256: d940de8819547f7a48753fc208b650ae5840b780d44109fc9fb83b5156f5e911
 
 build:
   entry_points:
@@ -49,7 +49,7 @@ about:
   home: https://github.com/chiahao3/ptyrad
   summary: 'PtyRAD: Ptychographic Reconstruction with Automatic Differentiation'
   dev_url: "https://github.com/chiahao3/ptyrad"
-  license: LGPL-3.0-only
+  license: LGPL-3.0-or-later
   license_file: LICENSE
 
 extra:
