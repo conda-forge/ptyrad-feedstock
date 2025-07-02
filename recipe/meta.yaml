@@ -1,5 +1,5 @@
 {% set name = "ptyrad" %}
-{% set version = "0.1.0b7" %}
+{% set version = "0.1.0b8" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ptyrad-{{ version }}.tar.gz
-  sha256: d940de8819547f7a48753fc208b650ae5840b780d44109fc9fb83b5156f5e911
+  sha256: 12e8a6223b0324e797222742d0a3619f038e60b79d70edf0049d5cae7cf86ee7
 
 build:
   entry_points:
@@ -29,11 +29,13 @@ requirements:
     - jupyter
     - matplotlib-base
     - optuna
-    - pytorch >=2.0,<2.7
+    - pydantic
+    - pytorch >=2.0
     - scikit-learn
     - scipy
     - tifffile
     - torchvision
+    
 
 test:
   imports:
