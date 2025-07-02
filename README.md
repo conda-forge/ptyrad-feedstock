@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ptyrad-feedstoc
 
 Home: https://github.com/chiahao3/ptyrad
 
-Package license: LGPL-3.0-only
+Package license: LGPL-3.0-or-later
 
 Summary: PtyRAD: Ptychographic Reconstruction with Automatic Differentiation
 
@@ -146,7 +146,4 @@ Feedstock Maintainers
 =====================
 
 * [@chiahao3](https://github.com/chiahao3/)
-
-
-<!-- dummy commit to enable rerendering -->
 
