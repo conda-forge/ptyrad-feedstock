@@ -29,11 +29,13 @@ requirements:
     - jupyter
     - matplotlib-base
     - optuna
-    - pytorch >=2.0,<2.7
+    - pydantic
+    - pytorch >=2.0
     - scikit-learn
     - scipy
     - tifffile
     - torchvision
+    
 
 test:
   imports:
