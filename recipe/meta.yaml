@@ -1,5 +1,5 @@
 {% set name = "ptyrad" %}
-{% set version = "0.1.0b8" %}
+{% set version = "0.1.0b9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ptyrad-{{ version }}.tar.gz
-  sha256: 12e8a6223b0324e797222742d0a3619f038e60b79d70edf0049d5cae7cf86ee7
+  sha256: 010964eeaa680a97dc5c83594dfb572cd9541765bfccaa3c7abf746132232894
 
 build:
   entry_points:
@@ -35,7 +35,7 @@ requirements:
     - scipy
     - tifffile
     - torchvision
-    
+
 
 test:
   imports:
