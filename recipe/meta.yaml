@@ -12,7 +12,7 @@ source:
 
 build:
   entry_points:
-    - ptyrad = ptyrad.cli:main
+    - ptyrad = ptyrad.cli.main:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
